@@ -17,6 +17,6 @@
 dark-3
 
 ### ссылка на репозиторий:
-
+https://maxim-mishustin.github.io/movies-explorer-frontend/
 
 ### ссылка на пуллреквест:
