@@ -20,3 +20,4 @@ dark-3
 https://maxim-mishustin.github.io/movies-explorer-frontend/
 
 ### ссылка на пуллреквест:
+https://github.com/Maxim-Mishustin/movies-explorer-frontend/pull/1
