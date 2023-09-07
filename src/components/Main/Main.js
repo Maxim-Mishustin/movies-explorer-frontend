@@ -5,10 +5,11 @@ import Techs from "../Techs/Techs";
 import AboutMe from "../AboutMe/AboutMe";
 import Portfolio from "../Portfolio/Portfolio";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
+import "./Main.css"
 
 function Main() {
   return (
-    <main>
+    <main className="content">
       <ScrollToTop />
       <Promo />
       <AboutProject />

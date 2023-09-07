@@ -16,7 +16,7 @@ function MoviesCard() {
         <div className="film__block">
           <div className="film__title-block">
             <h2 className="film__title">33 слова о дизайне</h2>
-            <span className="film__time">1ч 37м</span>
+            <p className="film__time">1ч 37м</p>
           </div>
           <button
             type="button"
@@ -33,7 +33,7 @@ function MoviesCard() {
         <div className="film__block">
           <div className="film__title-block">
             <h2 className="film__title">33 слова о дизайне</h2>
-            <span className="film__time">1ч 37м</span>
+            <p className="film__time">1ч 37м</p>
           </div>
           <button type="button" className="film__delete-btn"></button>
         </div>
@@ -45,7 +45,7 @@ function MoviesCard() {
         <div className="film__block">
           <div className="film__title-block">
             <h2 className="film__title">33 слова о дизайне</h2>
-            <span className="film__time">1ч 37м</span>
+            <p className="film__time">1ч 37м</p>
           </div>
           <button
             type="button"

@@ -3,8 +3,12 @@ import "./MoviesCardList.css"
 import SearchError from "../SearchError/SearchError"
 import MoviesCard from "../MoviesCard/MoviesCard"
 // import Preloader from "../Preloader/Preloader"
+import { useLocation } from "react-router-dom"
 
 function MoviesCardList() {
+  const location = useLocation()
+  const isSavedMoviesPage = location.pathname === "/saved-movies"
+
   return (
     <section className="films">
       {/* <Preloader /> */}
@@ -23,7 +27,7 @@ function MoviesCardList() {
 
       {/* <ul className="films__list"></ul> */}
       <div className="films__btn-block">
-        <button className="films__btn">Ещё</button>
+        {!isSavedMoviesPage && <button className="films__btn">Ещё</button>}
       </div>
     </section>
   )

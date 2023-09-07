@@ -42,23 +42,23 @@ function Header() {
           <Link to="/" className="logo">
             <img src={logo} alt="Логотип сайта по поиску фильмов" />
           </Link>
-          <div className="header__btn-block">
+          <nav className="header__btn-block">
             <Link to="/signup" className="header__btn">
               Регистрация
             </Link>
             <Link to="/signin" className="header__btn header__btn-green">
               Войти
             </Link>
-          </div>
+          </nav>
         </header>
       )}
 
       {shouldShowTwoHeader() && (
-        <header className="header header_gray" id="header-gray">
+        <header className="header header_place">
           <Link to="/" className="logo">
             <img src={logo} alt="Логотип сайта по поиску фильмов" />
           </Link>
-          <div className="header__btn-block-films">
+          <nav className="header__btn-block-films">
             <NavLink
               to="/movies"
               className="header__btn"
@@ -73,7 +73,7 @@ function Header() {
             >
               Сохранённые фильмы
             </NavLink>
-          </div>
+          </nav>
           <div className="header__btn-block">
             <Link to="/profile" className="header__account-btn">
               <img

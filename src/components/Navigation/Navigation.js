@@ -37,7 +37,7 @@ function Navigation({ handleCloseBurger }) {
           </NavLink>
         </nav>
         <Link to="/profile" className="navigation__account-btn">
-          <img src={account} alt="Кнопка входа в аккаунт" />
+          <img navigation__account-image src={account} alt="Кнопка входа в аккаунт" />
         </Link>
       </div>
     </div>

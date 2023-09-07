@@ -8,7 +8,7 @@ function Portfolio() {
       <h3 className="portfolio__title">Портфолио</h3>
       <nav className="portfolio__list">
         <a
-          href="https://github.com/maxim-mishustin/how-to-learn/"
+          href="https://maxim-mishustin.github.io/how-to-learn/"
           className="portfolio__link portfolio__link-border"
           target="_blank"
           rel="noreferrer"

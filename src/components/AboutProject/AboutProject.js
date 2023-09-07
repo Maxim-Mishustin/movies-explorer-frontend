@@ -1,5 +1,5 @@
-import React from "react";
-import "./AboutProject.css";
+import React from "react"
+import "./AboutProject.css"
 
 function AboutProject() {
   return (
@@ -27,7 +27,7 @@ function AboutProject() {
           </li>
         </ul>
         <div className="about-project__time">
-          <h3 className="about-project__time-title about-project__time-title_green">
+          <h3 className="about-project__time-title about-project__time-title_theme_accent">
             1 неделя
           </h3>
           <h3 className="about-project__time-title">4 недели</h3>
@@ -36,7 +36,7 @@ function AboutProject() {
         </div>
       </div>
     </section>
-  );
+  )
 }
 
-export default AboutProject;
+export default AboutProject
