@@ -1,5 +1,5 @@
-import React from "react";
-import "./Footer.css";
+import React from "react"
+import "./Footer.css"
 
 function Footer() {
   return (
@@ -7,6 +7,9 @@ function Footer() {
       <h3 className="footer__description">
         Учебный проект Яндекс.Практикум х BeatFilm.
       </h3>
+
+      <div className="footer__border-center"></div>
+
       <div className="footer__block">
         <p className="footer__author">
           {" "}
@@ -30,7 +33,7 @@ function Footer() {
         </a>
       </div>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer

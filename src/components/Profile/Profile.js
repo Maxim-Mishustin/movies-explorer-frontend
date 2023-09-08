@@ -38,7 +38,7 @@ function Profile() {
             />
             <span className="profile__input-error"></span>
           </label>
-          <button type="submit" className="profile__btn-save">
+          <button type="submit" className="profile__btn-save" disabled>
             Редактировать
           </button>
           <Link to="/" type="button" className="profile__exit">

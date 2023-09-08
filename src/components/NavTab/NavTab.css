@@ -26,6 +26,7 @@
   font-weight: 500;
   line-height: 16px;
   text-decoration-line: underline;
+  text-underline-offset: 4px;
   text-align: center;
   transition: 0.7s;
 }

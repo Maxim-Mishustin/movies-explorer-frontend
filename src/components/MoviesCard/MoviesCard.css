@@ -3,7 +3,7 @@
   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.08);
   border-radius: 6px;
   max-width: 100%;
-  min-height: 281px;
+  /* min-height: 281px;*/
 }
 
 .film__image {
@@ -67,7 +67,7 @@
   cursor: pointer;
 }
 
-.film__like-button_active {
+.film__like-btn_active {
   background-image: url("../../images/like-active.svg");
 }
 
@@ -105,5 +105,12 @@
     margin-top: 13px;
     font-size: 10px;
     line-height: 12px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .film {
+    min-height: 237px;
+    outline: 2px red solid;
   }
 }

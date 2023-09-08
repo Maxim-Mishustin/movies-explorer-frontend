@@ -4,6 +4,11 @@ import "./Navigation.css"
 import account from "../../images/account-btn.svg"
 
 function Navigation({ handleCloseBurger }) {
+
+  // Функция для смены цвета для активной ссылки
+  const setActive = ({ isActive }) =>
+    isActive ? "navigation__link_active" : "navigation__link"
+
   return (
     <div className="navigation__page-overlay">
       <div className="navigation__overlay-block"></div>
@@ -16,22 +21,19 @@ function Navigation({ handleCloseBurger }) {
           <NavLink
             exact
             to="/"
-            className="navigation__link"
-            activeclassname="navigation__link_active"
+            className={setActive}
           >
             Главная
           </NavLink>
           <NavLink
             to="/movies"
-            className="navigation__link"
-            activeclassname="navigation__link_active"
+            className={setActive}
           >
             Фильмы
           </NavLink>
           <NavLink
             to="/saved-movies"
-            className="navigation__link"
-            activeclassname="navigation__link_active"
+            className={setActive}
           >
             Сохранённые фильмы
           </NavLink>

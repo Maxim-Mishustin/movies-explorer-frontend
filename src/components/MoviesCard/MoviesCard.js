@@ -21,7 +21,7 @@ function MoviesCard() {
           <button
             type="button"
             className={`film__like-btn ${
-              isLiked ? "film__like-button_active" : ""
+              isLiked ? "film__like-btn_active" : ""
             }`}
             onClick={handleClick}
           ></button>
@@ -50,7 +50,7 @@ function MoviesCard() {
           <button
             type="button"
             className={`film__like-btn ${
-              isLiked ? "film__like-button_active" : ""
+              isLiked ? "film__like-btn_active" : ""
             }`}
             onClick={handleClick}
           ></button>

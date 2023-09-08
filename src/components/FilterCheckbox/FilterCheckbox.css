@@ -4,6 +4,12 @@
   align-items: center;
 }
 
+.filter__label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .filter__checkbox-text {
   color: #fff;
   font-size: 14px;
@@ -24,6 +30,10 @@
   position: relative;
   cursor: pointer;
   appearance: none;
+}
+
+.filter__checkbox:hover {
+  opacity: 0.6;
 }
 
 .filter__checkbox::after {

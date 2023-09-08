@@ -14,7 +14,7 @@
   background-image: url(../../images/practicum-logo.svg);
   background-position: center;
   background-repeat: no-repeat;
-  height: 320px;
+  min-height: 320px;
   display: flex;
   flex-direction: row;
   justify-content: center;

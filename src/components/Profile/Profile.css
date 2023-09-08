@@ -85,6 +85,10 @@
   cursor: pointer;
 }
 
+.profile__btn-save:hover {
+ opacity: .6;
+}
+
 .profile__exit {
   margin-top: 16px;
   min-height: 16px;
@@ -98,6 +102,10 @@
   text-decoration: none;
   cursor: pointer;
 }
+
+.profile__exit:hover {
+  opacity: .6;
+ }
 
 @media screen and (max-width: 1023px) {
   .profile {

@@ -48,7 +48,7 @@
     padding: 0;
     margin: 81px auto -37px;
     grid-template-columns: repeat(2, 339px);
-    gap: 30px 30px;
+    gap: 10px 30px;
     max-height: 1238px;
   }
 
